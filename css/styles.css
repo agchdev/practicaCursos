@@ -45,7 +45,7 @@ header#header{
 }
 
 section#buscador{
-    background: url(../img/shutterstock_253495648.jpg) no-repeat 40% center / cover fixed;
+    background: url(../img/shutterstock_253495648.jpg) no-repeat 10% center / cover fixed;
     background-attachment: fixed;
     .row{
         min-height: 40vh;

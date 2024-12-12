@@ -54,3 +54,11 @@ section#buscador{
     
     
 }
+
+section#cursos{
+    min-height: 100vh;
+    padding: 50px 0;
+    .row{
+        min-height: 20vh;
+    }
+}

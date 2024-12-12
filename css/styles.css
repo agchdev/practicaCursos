@@ -13,4 +13,44 @@ h1,h2,h3,h4,h5,h6{
 :root{
     --azulOscuro: #1b2631;
     --grisOscuro: #151717;
+    --azulClaro: #25CCF7;
+}
+
+header#header{
+    nav{
+        a.navbar-brand{
+            font-size: 1.8rem;
+            font-family: "Roboto Slab";
+            font-weight: 800;
+            span{
+                color: var(--azulClaro);
+            }
+        }
+
+        .collapse{
+            a{
+                font-size: 1rem;
+                &:hover{
+                    color: var(--azulClaro);
+                }
+            }
+        }
+
+        button.navbar-toggler{
+            border: none !important;
+        }
+    }
+
+
+}
+
+section#buscador{
+    background: url(../img/shutterstock_253495648.jpg) no-repeat center center / cover fixed;
+    background-attachment: fixed;
+    .row{
+        min-height: 25vh;
+        align-items: center;
+    }
+    
+    
 }
